@@ -1,0 +1,17 @@
+.description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding-inline: 2em;
+
+    color: white;
+}
+
+.description > * {
+    flex-wrap: wrap;
+}
+
+.description p {
+    color: #DCDCDC;
+}

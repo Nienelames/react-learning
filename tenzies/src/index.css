@@ -1,0 +1,10 @@
+body {
+  display: grid;
+  place-items: center;
+  place-content: center;
+
+  background-color: #0b2434;
+  font-family: 'Inter', sans-serif;
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,96 @@
+.App {
+  width: 400px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  padding: 0.5em;
+  gap: 0.25em;
+
+  background-color: rgb(245, 90, 90);
+}
+
+.header--logo {
+  max-width: 14px;
+
+  fill: white;
+}
+
+.title {
+  font-size: 0.5em;
+}
+
+.white {
+  color: white;
+}
+
+.travel-cards {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.5em;
+  padding: 2em 1em 2em 1em;
+}
+
+.travel-card {
+  display: flex;
+
+  gap: 0.5em;
+}
+
+.travel-details {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.25em;
+}
+
+.location-details {
+  display: flex;
+  align-items: center;
+
+  gap: 0.2em;
+
+  font-size: 0.8em;
+}
+
+.location-details a {
+  margin-left: 1em;
+
+  font-size: 0.5em;
+  color: rgb(186, 184, 192)
+}
+
+.location-photo {
+  border-radius: 2.5px;
+
+  width: 80px;
+  height: 100px;
+  object-fit: fill;
+}
+
+.location-name {
+  font-size: 0.5em;
+  text-transform: capitalize;
+}
+
+.object-title {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.description {
+  color: #2B283A;
+}
+
+p {
+  font-size: 0.5em;
+
+  margin: 0;
+  padding: 0;
+}

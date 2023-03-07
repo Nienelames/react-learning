@@ -1,0 +1,6 @@
+html {
+    font-family: 'Inter', sans-serif;
+  
+    display: grid;
+    place-items: center;
+}

@@ -1,0 +1,8 @@
+html {
+    font-family: 'Inter', sans-serif;
+    
+    background-color: rgb(1, 22, 39);
+
+    display: grid;
+    place-items: center;
+}

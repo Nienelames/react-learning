@@ -1,0 +1,86 @@
+.App {
+  background-color: cadetblue;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 500px;
+
+  border-radius: 10px;
+
+  background-color: azure;
+
+  gap: 1em;
+  padding: 1.5em;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+
+  border: none;
+  border-radius: 10px;
+  background-color: blueviolet;
+
+  padding: 1em;
+
+  text-decoration: none;
+  color:white;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 0.5em;
+}
+
+.description > * {
+  margin: 0;
+}
+
+.answers {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 1em;
+}
+
+.answer {
+  background-color: cornflowerblue;
+
+  padding: 0.5em;
+
+  border-radius: 16px;
+}
+
+.answer-correct{
+  background-color: green;
+}
+
+.answer-incorrect {
+  background-color: red;
+}
+
+.answers input[type="radio"] {
+  display: none;
+}
+.answers label {
+  display: inline-block;
+  background-color: lightblue;
+  padding: 0.5em 1em;
+
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+.answers label:hover {
+  border-color:#76cf9f;
+}
+
+.answers input[type="radio"]:checked + label {
+  background-color: lightgreen;
+  border-color: #666;
+}
